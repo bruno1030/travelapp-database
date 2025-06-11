@@ -1,0 +1,6 @@
+# Ignorar arquivos temporários e de backup
+*.sql~
+*.tmp
+*.bak
+*.log
+backups/
