@@ -9,6 +9,32 @@ Este repositório contém a estrutura de banco de dados para o app **TravelApp**
 
 A estrutura do banco de dados está organizada da seguinte forma:
 
+
+## ###############################################################
+
+
+travelapp-database/
+├── schema/                        # Scripts de criação inicial das tabelas
+│   ├── 000_create_database.sql    # Criação do schema "travelapp"
+│   ├── 001_create_users.sql       # Tabela de usuários
+│   ├── 002_create_photos.sql      # Tabela de fotos
+│   ├── 003_create_cities.sql      # Tabela de cidades
+│   └── ...                        # Outras tabelas, se necessário
+├── updates/                       # Scripts de alterações no banco após a criação
+│   ├── 2025_07_01_add_profile_picture_to_users.sql
+│   └── ...                        # Outras alterações, se necessário
+├── data/                          # Dados de exemplo ou para testes
+│   ├── 001_insert_mock_users.sql
+│   ├── 002_insert_paris_photos.sql
+│   └── ...
+├── backups/                       # Dumps e backups (não versionados)
+├── .gitignore                     # Ignora arquivos temporários, como backups locais
+└── README.md                      # Documentação do projeto
+
+
+## ###############################################################
+
+
 ### 🗂️ **Pastas principais**
 
 - **`schema/`**: Scripts para criação inicial do banco de dados (DDL). Contém os scripts que definem a estrutura básica das tabelas.
