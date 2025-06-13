@@ -3,7 +3,7 @@
 Banco de dados do app de fotos e viagens.  
 Organizado com PostgreSQL, separado pelas pastas schema, updates, data (que é onde vao ficar os dados iniciais) e backup.
 
-Nao sera necessario script sql para criacao de schema, apenas criacao de database e depois as criacoes das tabelas diretamente.
+Nao sera necessario script sql para criacao de schema, apenas criacao de database e depois as criacoes das tabelas diretamente, pois as tabelas no PostgreSQL sao criadas por default dentro do schema public, que tambem é default.
 
 Este repositório contém a estrutura de banco de dados para o app **TravelApp**, que permite o envio e visualização de fotos de diferentes locais ao redor do mundo. O banco de dados é construído em **PostgreSQL** e organizado de forma modular para facilitar a evolução e manutenção.
 
