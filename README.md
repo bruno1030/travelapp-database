@@ -15,18 +15,18 @@ A estrutura do banco de dados está organizada da seguinte forma:
 ## ###############################################################
 
 travelapp-database/
-___ schema/
-____________ 001_create_database.sql
-____________ 002_create_users.sql
-____________ 003_create_photos.sql
-____________ 004_create_cities.sql
-___ updates/
-____________ 2025_07_01_add_profile_picture_to_users.sql
-___ data/
-____________ 001_insert_mock_users.sql
-___ backups/
-___ .gitignore
-___ README.md
+... schema/
+............ 001_create_database.sql
+............ 002_create_users.sql
+............ 003_create_photos.sql
+............ 004_create_cities.sql
+... updates/
+............ 2025_07_01_add_profile_picture_to_users.sql
+... data/
+............ 001_insert_mock_users.sql
+... backups/
+... .gitignore
+... README.md
 
 ## ###############################################################
 
