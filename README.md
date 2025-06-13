@@ -32,10 +32,10 @@ ___ README.md
 
 Descricao de cada pasta:
 
-schema:                        # Scripts para criação inicial do banco de dados (DDL). Contém os scripts que definem a estrutura básica das tabelas.
-updates:                       # Scripts de alterações no banco após a criação inicial (como `ALTER TABLE`, `ADD COLUMN`, etc.). Usado para evolução do banco durante o desenvolvimento.
-data:                          # Scripts com dados iniciais para testes ou demonstração do app, como usuários mockados e fotos de exemplo.
-backups:                       # Contém dumps e backups do banco de dados. Não deve ser versionado no Git.
+schema:                        # Scripts para criação inicial do banco de dados (DDL). Contém os scripts que definem a estrutura básica das tabelas.  
+updates:                       # Scripts de alterações no banco após a criação inicial (como `ALTER TABLE`, `ADD COLUMN`, etc.). Usado para evolução do banco durante o desenvolvimento.  
+data:                          # Scripts com dados iniciais para testes ou demonstração do app, como usuários mockados e fotos de exemplo.  
+backups:                       # Contém dumps e backups do banco de dados. Não deve ser versionado no Git.  
 
 ## ###############################################################
 
