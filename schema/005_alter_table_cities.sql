@@ -1,0 +1,2 @@
+ALTER TABLE cities
+ADD COLUMN cover_photo_id INTEGER REFERENCES photos(id) ON DELETE SET NULL;
