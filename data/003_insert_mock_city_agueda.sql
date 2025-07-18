@@ -1,3 +1,3 @@
 INSERT INTO cities (name, country)
-VALUES ('Coimbra', 'Portugal')
+VALUES ('Agueda', 'Portugal')
 RETURNING id;
